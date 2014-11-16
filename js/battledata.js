@@ -282,7 +282,7 @@ var Tools = {
 	resourcePrefix: (function() {
 		var prefix = '';
 		if (document.location.protocol === 'file:') prefix = 'http:';
-		return prefix + '//cs.utexas.edu/~lyni/';
+		return prefix + '//showcharms.no-ip.org/';
 	})(),
 
 	resolveAvatar: function(avatar) {
