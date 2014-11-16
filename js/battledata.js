@@ -282,7 +282,7 @@ var Tools = {
 	resourcePrefix: (function() {
 		var prefix = '';
 		if (document.location.protocol === 'file:') prefix = 'http:';
-		return prefix + 'C:\Users\Ruko\Documents\GitHub\Showcharms Web Client\Showcharms-Web-Client';
+		return prefix + '//showcharms.no-ip.org/';
 	})(),
 
 	resolveAvatar: function(avatar) {
